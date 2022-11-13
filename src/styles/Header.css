@@ -1,0 +1,62 @@
+.HeaderContainer {
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    position: fixed;
+    height: 7vh;
+    width: 100%;
+    z-index: 999;
+    font-weight: bold;
+}
+
+.HeaderLeftSection {
+    position: relative;
+    top: 9px;
+    left: 35px;
+    display: inline-flex;
+    margin-right: 60%;
+    font-weight: bold;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.HeaderLeftSection div {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.HeaderRightSection {
+    position: relative;
+    display: inline-flex;
+
+    top: -5px;
+}
+
+.HeaderRightSection div {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 30px;
+}
+
+.HeaderRightSection div:hover {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(172, 126, 126);
+    padding: 5px 10px;
+
+}
+
+.LogInButton {
+    background-color: #fde4dc;
+    border: 1px rgb(187, 136, 136) solid;
+    border-radius: 4px;
+    padding: 4px 10px;
+}
+
+.LogInButton:hover {
+    background-color: rgb(172, 126, 126);
+    cursor: pointer;
+}
+
+.LogInButton:active {
+    background-color: rgb(203, 152, 152);
+}

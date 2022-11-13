@@ -1,0 +1,42 @@
+.TopSectionContainer {
+    position: absolute;
+    width: 100%;
+    top: 2vh;
+}
+
+.TopSectionPic {
+    width: 100vw;
+    height: 50vh;
+    opacity: 0.6;
+}
+
+.SearchingBar {
+    position: absolute;
+    right: 35%;
+    top: 300px;
+}
+
+.SearchingBar Input {
+    height: 40px;
+    width: 300px;
+    border-width: 1px;
+    border-radius: 5px 0 0 5px;
+}
+
+.SearchingBar button {
+    background-color: rgb(70, 69, 69);
+    border-radius: 0 5px 5px 0;
+    border: none;
+    color: white;
+    height: 44px;
+    width: 150px;
+}
+
+.SearchingBar button:hover {
+    background-color: rgb(101, 101, 101);
+}
+
+.SearchingBar button:active {
+    background-color: rgb(40, 40, 40);
+
+}
