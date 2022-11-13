@@ -6,8 +6,8 @@ export default function ㄑHeader() {
     return (
         <div className='HeaderContainer'>
             <div className='HeaderLeftSection'>
-                <img src={Logo} width='30px' />
-                <div>101 Food Blog</div>
+                <div><img src={Logo} width='30px' /></div>
+                <div className='LogoText'>101 Food Blog</div>
             </div>
             <div className='HeaderRightSection'>
                 <div>Home</div>

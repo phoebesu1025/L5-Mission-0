@@ -11,9 +11,11 @@
 }
 
 .SearchingBar {
-    position: absolute;
-    right: 35%;
-    top: 300px;
+    position: relative;
+    top: -70px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 .SearchingBar Input {
