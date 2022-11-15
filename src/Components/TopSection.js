@@ -7,7 +7,7 @@ export default function TopSection() {
             <div className='TopSectionContainer'>
                 <div>
                     <img className='TopSectionPic' src={Taipei101} />
-                    <div className='SearchingBar'><input type='text' placeholder='Search for Recipe' />
+                    <div className='SearchingBar'><input type='text' placeholder='Search for the Recipe' />
                         <button>Search</button>
                     </div>
                 </div>
