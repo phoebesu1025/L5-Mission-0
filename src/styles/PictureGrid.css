@@ -1,10 +1,10 @@
 .PictureGridContainer {
-    background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
+    background-image: linear-gradient(-20deg, #f794a584 0%, #fdd6bd 100%);
     position: absolute;
-    top: 51vh;
+    top: 66vh;
 
     width: 100vw;
-    height: 349px;
+    height: 50vh;
 
     display: grid;
     grid-template-columns: repeat(3, 25%);
@@ -13,10 +13,10 @@
 }
 
 .PictureGridContainer div {
-    background-image: linear-gradient(-20deg, rgba(78, 78, 78, 0.726), rgba(195, 192, 192, 0.726));
-    color: rgb(246, 215, 215);
+    background-image: linear-gradient(-20deg, rgba(126, 126, 126, 0.726), rgba(107, 107, 107, 0.726));
+    color: rgb(255, 255, 246);
     ;
-    height: 310px;
+    height: 320px;
     margin-top: 20px;
     border-radius: 5px 5px;
     font-weight: bold;
@@ -34,13 +34,14 @@
 
 .PictureGridContainer h5 {
     font-size: 14px;
-    margin: 0 0 0 10px;
+    margin: 8px 0 0 10px;
     text-decoration: underline;
 }
 
 .PictureGridContainer p {
     font-size: 13px;
-    margin: 2px 10px 0 30px;
+    margin: 4px 20px 0 30px;
+
 }
 
 .PictureGridContainer span {

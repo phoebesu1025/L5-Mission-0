@@ -13,8 +13,8 @@
 
 .HeaderLeftSection {
     display: flex;
-    width: 500px;
-    margin-left: 30px;
+    width: 1000vw;
+    margin-left: 40px;
     font-weight: bold;
     font-size: larger;
     cursor: pointer;
@@ -40,21 +40,25 @@
 
 .HeaderRightSection {
     display: flex;
-    width: 400px;
+    width: 100vw;
+    justify-content: center;
+    margin-right: 20px;
 }
 
 .HeaderRightSection div {
     margin-top: auto;
     margin-bottom: auto;
-    margin-right: 40px;
+    margin-right: 6px;
+    margin-left: 6px;
+    width: 70px;
+    text-align: center;
 }
 
 .HeaderRightSection div:hover {
     color: white;
     cursor: pointer;
     background-color: rgb(172, 126, 126);
-    padding: 5px 10px;
-
+    padding: 5px 15px;
 }
 
 .HeaderRightSection div:active {
@@ -65,20 +69,72 @@
     background-color: #fde4dc;
     border: 1px rgb(187, 136, 136) solid;
     border-radius: 4px;
-    padding: 4px 10px;
-    min-width: 60px;
+    padding: 4px;
+
 }
+
+.SearchBar {
+    display: inline-flex;
+    flex: 1fr;
+    width: 30%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.SearchBar Input {
+    height: 25px;
+    width: 100px;
+    border-width: 1px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+}
+
+.SearchBar Input::placeholder {
+    padding-left: 10px;
+    opacity: 0.7;
+}
+
+.SearchBar Input::placeholder:checked {
+    padding-left: 10px;
+    opacity: 1;
+}
+
+.SearchBar button {
+    background-color: rgba(245, 245, 245, 0.592);
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    color: white;
+    height: 27px;
+    width: 30px;
+    flex: 1fr;
+    margin-right: 20px;
+}
+
+img {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.SearchBar button:hover {
+    background-color: rgb(101, 101, 101);
+}
+
+.SearchBar button:active {
+    background-color: rgb(40, 40, 40);
+
+}
+
+
 
 
 
 @media (max-width:750px) {
     .HeaderContainer {
         flex-direction: column;
-        position: none;
     }
 
     .HeaderLeftSection {
-        justify-content: center;
         margin-top: 4px;
         margin-left: 10px;
     }
@@ -89,19 +145,31 @@
         margin-top: 6px;
         align-items: center;
 
+
+
     }
 
     .HeaderRightSection div {
         width: 100%;
         background-color: #fcb69f;
-        opacity: 0.7;
+        opacity: 0.8;
         text-align: center;
         border: 1px rgb(152, 152, 152) solid;
         height: 50px;
         margin-top: -1px;
-        padding-top: 10px;
-        padding-bottom: 0px;
+        padding-top: 20px;
+        height: 40px;
+        opacity: 0;
+    }
 
+    .HeaderRightSection div:hover {
+        padding-top: 20px
+    }
+
+    .SearchBar {
+        position: absolute;
+        top: 10px;
+        right: 0
     }
 
 

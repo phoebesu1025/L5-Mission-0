@@ -5,9 +5,9 @@
 
 .TopSectionPic {
     width: 100vw;
-    height: 80vh;
+    height: 65vh;
 
-    opacity: 0.7;
+    opacity: 0.6;
     object-fit: cover;
 }
 
@@ -33,15 +33,15 @@
     font-size: 60px;
     font-weight: bolder;
     position: absolute;
-    top: 20vh;
+    top: 17vh;
     left: 10vw;
-    word-spacing: 10px;
+    word-spacing: 20px;
 }
 
 .BannerBtn {
     position: relative;
-    top: -55vh;
-    left: 10vw;
+    top: -18vh;
+    left: 15vw;
     display: flex;
     justify-content: space-around;
     width: 500px;
@@ -51,14 +51,14 @@
 
 .LearnMoreBtn,
 .SignUpBtn {
-    border-radius: 20px;
+    border-radius: 6px;
     width: 150px;
     padding: 6px 10px;
     text-align: center;
     word-spacing: 8px;
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    box-shadow: 1px 1px 1px rgba(101, 101, 101, 0.478);
+    box-shadow: 1px 1px 1px rgba(101, 101, 101, 0.711);
 }
 
 
@@ -80,6 +80,58 @@
     background-color: rgb(172, 126, 126);
     ;
 }
+
+
+@media (max-width:750px) {
+    .BannerBtn {
+        font-size: 12px;
+        flex-direction: column;
+        left: 60vw;
+        gap: 20px;
+    }
+
+    .BannerBtn:hover {
+        color: white;
+    }
+
+    .LearnMoreBtn {
+        background-color: rgba(241, 238, 238, 0.851);
+        color: rgb(108, 99, 99);
+        width: 100px;
+    }
+
+    .SignUpBtn {
+        background-image: linear-gradient(to right, #e49572 0%, #eeaf9b 100%);
+        color: #7b5d5d;
+        width: 100px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 
 .SearchingBar {
     position: relative;
@@ -112,4 +164,4 @@
 .SearchingBar button:active {
     background-color: rgb(40, 40, 40);
 
-}
+} */
